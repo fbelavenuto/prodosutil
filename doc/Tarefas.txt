@@ -1,0 +1,7 @@
+Lista de Tarefas:
+
+ - Adicionar suporte a exclusão de diretórios.
+ - Adicionar suporte a extração de arquivos com wildcards(*?) e diretórios inteiros.
+ - Adicionar suporte a escolha do nome do arquivo de saída ao extrair arquivos da imagem.
+ - Adicionar comando para alterar flags de acesso e tipo de arquivo
+ - Adicionar opção "silencioso"

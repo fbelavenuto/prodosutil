@@ -1,0 +1,14 @@
+Mudanças na versão 1.0
+
+ - Primeira versão lançada ao público.
+
+
+Mudanças na versão 1.1
+
+ - Algumas mudanças internas.
+ - Corrigido um bug no comando -d (DELETE).
+ - Adicionado comando -m (MAKE) para criação de arquivos e diretórios.
+ - Adicionado comando -c (CREATE) para criação de novos volumes ProDos.
+ - Resolvido um bug na inserção de arquivos grandes (Arquivos TREE).
+ - Mudança no comando -i (IN), agora é possível especificar o Nome_Apple,
+   Tipo de arquivo ProDOS e valor auxiliar pelo nome do arquivo.
