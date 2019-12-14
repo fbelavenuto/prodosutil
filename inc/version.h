@@ -7,4 +7,4 @@
  *  ESTE SOFTWARE NÃO OFERECE NENHUMA GARANTIA
  */
 
-#define VERSION "1.1"
+#define VERSION "1.1.0"

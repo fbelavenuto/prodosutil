@@ -16,7 +16,9 @@ LDFLAGS =
 _OBJ = prodos.o
 OBJS = $(addprefix $(ODIR)/, $(_OBJ))
 
-all: $(ODIR) prodos
+APP=prodos
+
+all: $(ODIR) $(APP)
 
 prodos: $(OBJS)
 	$(LD) $(LDFLAGS) -o $@ $^
@@ -24,14 +26,13 @@ prodos: $(OBJS)
 $(ODIR):
 	$(MD) $(ODIR)
 
-.PHONY: clean install
+.PHONY: clean install dist
 
 clean:
-	$(RM) *.exe prodos $(ODIR)/*
+	$(RM) *.exe $(APP) $(ODIR)/*
 
-install: prodos
+install: $(APP)
 	$(CP) $< /usr/local/bin
-
 
 
 $(ODIR)/%.o: $(SDIR)/%.c
